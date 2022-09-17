@@ -1,0 +1,25 @@
+doctype html
+html
+    head 
+        title Art Gallery By Suryaa
+        link(rel="icon",href="youtube.png")
+        
+        block style 
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                    | 
+                li #[a(href="/") home]
+                li #[a(href="/about") About]
+                li #[a(href="/gallery") Gallery]
+                li #[a(href="/information") Information]
+                li #[a(href="/contact") Contact Us]
+
+
+        block container 
+        footer#footer
+            p Copyright © 2022 ArtBySuraj.com | All Rights Reserved
+
+        block scripts

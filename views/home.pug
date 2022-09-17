@@ -1,0 +1,59 @@
+extend base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/style1.css
+
+block container
+    section#introSection
+        div
+            marquee Welcome to suraj's Art Gallery
+        div.small
+            marquee.one(direction="right") Thanks for visit this site
+    //- h2 Our Mission
+    //- section#missionSection
+            
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsorsSection
+        h2 Our Sponsors
+        div(id="clicklogo")
+            a(href="https://m.facebook.com/Surya-arts-102577249166012/")
+                div(class='logo') 
+                    img(src='/static/facebook.png')
+            a(href="https://twitter.com/SurajMe96462919")
+                div(class='logo') 
+                    img(src="/static/twitter.png")
+            a(href="https://www.instagram.com/surajmehra221/")
+                div(class='logo') 
+                    img(src="/static/instagram.png")
+            a(href="https://www.youtube.com/channel/UC5aMC9x2jK0BImtO9PEhs8Q")
+                div(class='logo') 
+                    img(src="/static/youtube.png")
+
+    

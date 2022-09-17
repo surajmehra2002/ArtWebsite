@@ -1,0 +1,17 @@
+#introSection{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 75px;
+    align-items: center;
+    /* background: center/cover no-repeat url(/static/bg.jpg); */
+    height: 1200px;
+    background-color: #000000;
+}
+#clicklogo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 42px;
+}

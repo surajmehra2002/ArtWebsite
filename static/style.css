@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#logo img{
+    height: 40px;
+    width: 40px; 
+
+    }
+#logo{
+    display: inline;
+}
+
+.logo img {
+    width: 65px;
+    height: 65px;
+    
+}
+#navbar ul {
+    padding-top: 219px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+    /* text-align: center; */
+}
+
+
+#navbar{
+    background-color: rgb(176, 86, 86);
+    position: sticky;
+    top: -175px;
+    left: 0px;
+}
+li {
+    display: inline;
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap'); */
+li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+marquee.one{
+    font-size: 40px;
+}
+
+#introSection{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 75px;
+    align-items: center;
+    /* background: center/cover no-repeat url(/static/bg.jpg); */
+    height: 1900px;
+    background-color: #dfb7b7;
+}
+marquee{
+    font-size: 72px;
+}
+
+#introSection div{
+    padding: 160px 1px
+}
+#introSection div.small{
+    font-size: 40px;
+    padding: 0px 226px;
+}
+#introSection div.no{
+    
+    padding-top: 190px;
+}
+div.number{
+    margin: -253px 40px;
+    font-size: 60px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #f5f5f5c7;
+}
+#footer{
+    background-color: rgb(35, 27, 56);
+    height: 180px;
+    color: white;
+}
+#footer p{
+    text-align: center;
+    font-size: 26px;
+    /* margin-top: 10px; */
+}
+#missionSection{
+    display: flex;
+    justify-content: center;
+    height: 326px;; 
+    width: 90%;
+    margin: auto;
+}
+
+h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
